@@ -19,6 +19,7 @@ public class Long_subsequence
 	   public static void main(String args[]){
 	      int my_arr[] = { 10, 22, 9, 33, 21, 50, 41, 60 };
 	      int arr_len = my_arr.length;
+	      System.out.println("\n");
 	      System.out.println("The length of the longest increasing subsequence is " + 
 	      incre_subseq(my_arr, arr_len));
 	   }
